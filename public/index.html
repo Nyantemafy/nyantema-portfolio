@@ -28,6 +28,11 @@
   </head>
   <body>
     <script>
+      // Redirection automatique vers index.html si nécessaire
+      if (window.location.pathname === '/' || window.location.pathname === '/nyantema-portfolio/') {
+        window.location.href = window.location.origin + window.location.pathname + 'index.html' + window.location.search + window.location.hash;
+      }
+      
       // Gestion de la redirection pour GitHub Pages
       (function() {
         const search = window.location.search;
