@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nyantema-portfolio/static/css/main.086e14a6.css",
-    "main.js": "/nyantema-portfolio/static/js/main.0791d3d7.js",
-    "static/js/453.5ab48458.chunk.js": "/nyantema-portfolio/static/js/453.5ab48458.chunk.js",
-    "index.html": "/nyantema-portfolio/index.html",
-    "main.086e14a6.css.map": "/nyantema-portfolio/static/css/main.086e14a6.css.map",
-    "main.0791d3d7.js.map": "/nyantema-portfolio/static/js/main.0791d3d7.js.map",
-    "453.5ab48458.chunk.js.map": "/nyantema-portfolio/static/js/453.5ab48458.chunk.js.map"
+    "main.css": "./static/css/main.086e14a6.css",
+    "main.js": "./static/js/main.0ab4a8b7.js",
+    "static/js/453.5ab48458.chunk.js": "./static/js/453.5ab48458.chunk.js",
+    "index.html": "./index.html",
+    "main.086e14a6.css.map": "./static/css/main.086e14a6.css.map",
+    "main.0ab4a8b7.js.map": "./static/js/main.0ab4a8b7.js.map",
+    "453.5ab48458.chunk.js.map": "./static/js/453.5ab48458.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.086e14a6.css",
-    "static/js/main.0791d3d7.js"
+    "static/js/main.0ab4a8b7.js"
   ]
 }
