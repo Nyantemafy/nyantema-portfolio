@@ -49,7 +49,7 @@ const AccueilPage = () => {
                             <div className="grid grid-cols-3 gap-6 pt-8">
                                 {[
                                     { number: "3+", label: "Projets" },
-                                    { number: "2", label: "Mois d'expérience" },
+                                    { number: "4", label: "Mois d'expérience" },
                                     { number: "10+", label: "Technologies" }
                                 ].map((stat, index) => (
                                     <div 
@@ -79,7 +79,8 @@ const AccueilPage = () => {
                                 <div className="relative w-80 h-80 rounded-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center overflow-hidden shadow-2xl border-4 border-white transition-transform duration-700 group-hover:rotate-3">
                                     {/* Votre photo de profil */}
                                     <img 
-                                        src="https://res.cloudinary.com/dl280pugt/image/upload/v1759346308/Untitled_design-removebg-preview_etzith.png" 
+                                        // src="https://res.cloudinary.com/dl280pugt/image/upload/v1759346308/Untitled_design-removebg-preview_etzith.png" 
+                                        src=""
                                         alt="Andriambelomanana - Développeuse Full Stack"
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                         onError={(e) => {

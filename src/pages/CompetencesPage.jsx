@@ -33,11 +33,8 @@ const CompetencesPage = () => {
         frameworks: [
             { name: "React", level: 90, icon: <Atom size={20} className="text-gray-700" /> },
             { name: "Node.js", level: 85, icon: <Network size={20} className="text-gray-700" /> },
-            { name: "Express", level: 85, icon: <Server size={20} className="text-gray-700" /> },
             { name: "Vue.js", level: 80, icon: <Layers size={20} className="text-gray-700" /> },
-            { name: "Laravel", level: 75, icon: <Flame size={20} className="text-gray-700" /> },
-            { name: "Django", level: 70, icon: <FileCode size={20} className="text-gray-700" /> },
-            // { name: "WordPress", level: 95, icon: <Globe size={20} className="text-gray-700" /> }
+            { name: "Laravel", level: 75, icon: <Flame size={20} className="text-gray-700" /> }
         ],
         databases: [
             { name: "Oracle", level: 80, icon: <Database size={20} className="text-gray-700" /> },

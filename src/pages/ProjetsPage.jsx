@@ -14,7 +14,7 @@ const ProjetsPage = () => {
             technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
             icon: "🛍️",
             color: "from-gray-800 to-gray-700",
-            link: "https://exemple-ecommerce.com",
+            link: "https://nyantemafy.github.io/frontend-ecommerce",
             features: [
                 "Catalogue de produits avec filtres avancés",
                 "Panier d'achat dynamique",
