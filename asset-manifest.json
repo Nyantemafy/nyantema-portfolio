@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nyantema-portfolio/static/css/main.c9705124.css",
+    "main.js": "/nyantema-portfolio/static/js/main.986c03d0.js",
+    "static/js/453.5ab48458.chunk.js": "/nyantema-portfolio/static/js/453.5ab48458.chunk.js",
+    "index.html": "/nyantema-portfolio/index.html",
+    "main.c9705124.css.map": "/nyantema-portfolio/static/css/main.c9705124.css.map",
+    "main.986c03d0.js.map": "/nyantema-portfolio/static/js/main.986c03d0.js.map",
+    "453.5ab48458.chunk.js.map": "/nyantema-portfolio/static/js/453.5ab48458.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9705124.css",
+    "static/js/main.986c03d0.js"
+  ]
+}
