@@ -34,6 +34,7 @@ const CompetencesPage = () => {
             { name: "React", level: 90, icon: <Atom size={20} className="text-gray-700" /> },
             { name: "Node.js", level: 85, icon: <Network size={20} className="text-gray-700" /> },
             { name: "Vue.js", level: 80, icon: <Layers size={20} className="text-gray-700" /> },
+            { name: "Spring-boot", level: 80, icon: <Flame size={20} className="text-gray-700" /> },
             { name: "Laravel", level: 75, icon: <Flame size={20} className="text-gray-700" /> }
         ],
         databases: [
@@ -41,6 +42,7 @@ const CompetencesPage = () => {
             { name: "MySQL", level: 90, icon: <Database size={20} className="text-gray-700" /> },
             { name: "PostgreSQL", level: 90, icon: <Database size={20} className="text-gray-700" /> },
             { name: "Firebase", level: 75, icon: <Flame size={20} className="text-gray-700" /> },
+            { name: "Mongo DB", level: 60, icon: <Flame size={20} className="text-gray-700" /> },
             { name: "Neon", level: 90, icon: <Cloud size={20} className="text-gray-700" /> }
         ],
         outils: [
@@ -49,7 +51,8 @@ const CompetencesPage = () => {
             { name: "Docker", level: 70, icon: <Container size={20} className="text-gray-700" /> },
             { name: "Insomnia", level: 85, icon: <Zap size={20} className="text-gray-700" /> },
             { name: "Figma", level: 80, icon: <Palette size={20} className="text-gray-700" /> },
-            { name: "Notion", level: 85, icon: <FileCode size={20} className="text-gray-700" /> }
+            { name: "Notion", level: 85, icon: <FileCode size={20} className="text-gray-700" /> },
+            { name: "n8n", level: 50, icon: <Network size={20} className="text-gray-700" /> }
         ],
         services: [
             { name: "API REST", level: 90, icon: <Code size={20} className="text-gray-700" /> },
