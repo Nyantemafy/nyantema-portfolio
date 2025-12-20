@@ -14,7 +14,8 @@ const ProjetsPage = () => {
             technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
             icon: "🛍️",
             color: "from-gray-800 to-gray-700",
-            link: "https://nyantemafy.github.io/frontend-ecommerce",
+            link: "https://player.cloudinary.com/embed/?cloud_name=dl280pugt&public_id=clideo_editor_b1a07f2d418e4920922c990e48c5549b_d1ep2e&profile=cld-default",
+            link2: "https://nyantemafy.github.io/frontend-ecommerce",
             features: [
                 "Catalogue de produits avec filtres avancés",
                 "Panier d'achat dynamique",
@@ -33,12 +34,11 @@ const ProjetsPage = () => {
             technologies: ["Vue.js", "Laravel", "MySQL", "Bootstrap", "Redis"],
             icon: "📚",
             color: "from-gray-700 to-gray-600",
-            link: "https://exemple-school.com",
+            link: "https://player.cloudinary.com/embed/?cloud_name=dl280pugt&public_id=clideo_editor_a86a8ffabd454de1847a60b7719ff39c_takrva&profile=cld-default",
             features: [
                 "Gestion des inscriptions étudiants",
                 "Suivi des notes et bulletins",
                 "Calendrier des cours et examens",
-                "Messagerie interne école-parents",
                 "Génération de rapports automatiques",
                 "Interface différenciée par rôle (admin, prof, étudiant)"
             ],
@@ -46,22 +46,28 @@ const ProjetsPage = () => {
         },
         {
             id: 3,
-            title: "Portfolio Interactif",
-            description: "Site portfolio moderne avec animations et design responsive",
-            objective: "Créer un portfolio personnel attrayant et professionnel pour présenter mes compétences, projets et parcours de manière interactive.",
-            technologies: ["React", "Framer Motion", "Tailwind CSS", "Three.js"],
+            title: "Gestion Panneau",
+            description: "Plateforme de gestion de panneaux, controle, agent et admin panneau",
+            objective: "Développer une application mobile et web complète de gestion de panneaux, offrant une solution moderne pour la visualisation et la gestion des données géographiques et des actifs.",
+            technologies: ["React Native", "Expo", "React Navigation", "React Native Web", "Electron (pour la version desktop)", "React Leaflet (cartes interactives)", "Expo File System (gestion des fichiers)", "Expo Secure Store (stockage sécurisé)", "Node.js", "Postgres"],
             icon: "💼",
             color: "from-gray-600 to-gray-500",
             link: "https://exemple-portfolio.com",
             features: [
-                "Design moderne et épuré",
-                "Animations fluides et interactives",
-                "Section projets avec filtres",
-                "Formulaire de contact fonctionnel",
-                "Mode sombre/clair",
-                "Optimisé SEO et performances"
+                "Interface multiplateforme (mobile, web, desktop)",
+                "Capture et gestion des photos",
+                "Gestion des données géographiques avec cartes interactives",
+                "Gestion des fichiers et documents",
+                "Sélecteur de dates et heures intégré",
+                "Génération de codes QR"
             ],
-            challenges: "Créer des animations performantes sans impacter la vitesse de chargement et assurer une excellente expérience utilisateur sur tous les appareils."
+            challenges: [
+                "Assurer la compatibilité multiplateforme (iOS, Android, Web, Desktop)",
+                "Gérer efficacement les données géographiques en temps réel",
+                "Maintenir des performances optimales sur tous les appareils",
+                "Assurer la synchronisation des données entre les différentes plateformes",
+                "Gérer les permissions d'accès aux fonctionnalités natives comme la caméra et la géolocalisation"                
+            ]
         }
     ];
     

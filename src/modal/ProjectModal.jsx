@@ -53,16 +53,27 @@ const ProjectModal = ({ project, onClose }) => {
                         <p className="text-gray-700 leading-relaxed bg-gray-50 p-6 rounded-lg border border-gray-200 group-hover:border-gray-300 transition-all duration-300">{project.challenges}</p>
                     </div>
                     
-                    <div className="pt-6 border-t border-gray-200">
+                    <div className="pt-6 border-t border-gray-200 flex flex-wrap gap-4">
                         <a 
                             href={project.link} 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-700 text-white rounded-lg font-semibold hover:shadow-xl transform hover:scale-105 transition-all duration-300 group/btn"
                         >
-                            Voir le projet en ligne
+                            Voir le projet
                             <ExternalLink className="ml-3 group-hover/btn:scale-110 transition-transform duration-300" size={18} />
                         </a>
+                        {project.link2 && (
+                            <a 
+                                href={project.link2} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white rounded-lg font-semibold hover:shadow-xl transform hover:scale-105 transition-all duration-300 group/btn"
+                            >
+                                Visiter le site
+                                <ExternalLink className="ml-3 group-hover/btn:scale-110 transition-transform duration-300" size={18} />
+                            </a>
+                        )}
                     </div>
                 </div>
             </div>
