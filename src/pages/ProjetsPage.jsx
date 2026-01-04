@@ -52,7 +52,7 @@ const ProjetsPage = () => {
             technologies: ["React Native", "Expo", "React Navigation", "React Native Web", "Electron (pour la version desktop)", "React Leaflet (cartes interactives)", "Expo File System (gestion des fichiers)", "Expo Secure Store (stockage sécurisé)", "Node.js", "Postgres"],
             icon: "💼",
             color: "from-gray-600 to-gray-500",
-            link: "https://exemple-portfolio.com",
+            link: "https://player.cloudinary.com/embed/?cloud_name=dl280pugt&public_id=democua_ugmzek&profile=cld-default",
             features: [
                 "Interface multiplateforme (mobile, web, desktop)",
                 "Capture et gestion des photos",
