@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nyantema-portfolio/static/css/main.086e14a6.css",
-    "main.js": "/nyantema-portfolio/static/js/main.0791d3d7.js",
+    "main.css": "/nyantema-portfolio/static/css/main.b34412a9.css",
+    "main.js": "/nyantema-portfolio/static/js/main.2b71fa37.js",
     "static/js/453.5ab48458.chunk.js": "/nyantema-portfolio/static/js/453.5ab48458.chunk.js",
     "index.html": "/nyantema-portfolio/index.html",
-    "main.086e14a6.css.map": "/nyantema-portfolio/static/css/main.086e14a6.css.map",
-    "main.0791d3d7.js.map": "/nyantema-portfolio/static/js/main.0791d3d7.js.map",
+    "main.b34412a9.css.map": "/nyantema-portfolio/static/css/main.b34412a9.css.map",
+    "main.2b71fa37.js.map": "/nyantema-portfolio/static/js/main.2b71fa37.js.map",
     "453.5ab48458.chunk.js.map": "/nyantema-portfolio/static/js/453.5ab48458.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.086e14a6.css",
-    "static/js/main.0791d3d7.js"
+    "static/css/main.b34412a9.css",
+    "static/js/main.2b71fa37.js"
   ]
 }
